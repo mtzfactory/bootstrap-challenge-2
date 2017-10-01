@@ -1,0 +1,78 @@
+$bg-theme: rgb(222, 222, 222);
+$border-theme: rgb(187, 187, 187);
+$blue-theme: rgb(57, 91, 116);
+$grey-theme: rgb(237, 237, 237);
+
+/*
+ --
+ */
+body { background-color: $bg-theme; }
+
+/*
+ --
+ */
+.profile {
+  background-color: white;
+  border: 1px solid $border-theme;
+  margin-top: 80px;
+  padding-bottom: 20px;
+
+  span { color: $blue-theme; }
+
+  .profile-picture {
+    transform: translateY(-80px);
+    text-align: center;
+
+    img { width: 160px; }
+  }
+
+  .curriculum {
+    margin-top: -80px;
+
+    h1 { text-align: center; }
+
+    img { width: 100%; }
+
+    h2 { color: $blue-theme; }
+
+    li { margin-top: 20px; }
+
+    li img {
+      width: 16px;
+      margin-right: 8px;
+    }
+
+    .experience {
+      background-color: $grey-theme;
+      margin-bottom: 10px;
+      padding: 10px;
+
+      dt { font-weight: normal; width: unset; }
+      dd { margin-left: 100px; }
+    }
+
+    .glyphicon { margin-right: 10px; }
+
+    .projects {
+      img { margin-bottom: 20px; }
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        & img { width: 30%; }
+      }
+      @media only screen and (max-width: 768px) {
+        & img { width: 50%; }
+        & img:last-of-type { margin-bottom: 40px; }
+      }
+    }
+  }
+
+}
+
+/*
+ --
+ */
+footer {
+  color: white;
+  background-color: $blue-theme;
+
+  p { margin: 15px 0 20px 0; }
+};

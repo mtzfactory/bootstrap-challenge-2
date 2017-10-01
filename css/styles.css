@@ -1,0 +1,66 @@
+/*
+ --
+ */
+body {
+  background-color: #dedede; }
+
+/*
+ --
+ */
+.profile {
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  margin-top: 80px;
+  padding-bottom: 20px; }
+  .profile span {
+    color: #395b74; }
+  .profile .profile-picture {
+    transform: translateY(-80px);
+    text-align: center; }
+    .profile .profile-picture img {
+      width: 160px; }
+  .profile .curriculum {
+    margin-top: -80px; }
+    .profile .curriculum h1 {
+      text-align: center; }
+    .profile .curriculum img {
+      width: 100%; }
+    .profile .curriculum h2 {
+      color: #395b74; }
+    .profile .curriculum li {
+      margin-top: 20px; }
+    .profile .curriculum li img {
+      width: 16px;
+      margin-right: 8px; }
+    .profile .curriculum .experience {
+      background-color: #ededed;
+      margin-bottom: 10px;
+      padding: 10px; }
+      .profile .curriculum .experience dt {
+        font-weight: normal;
+        width: unset; }
+      .profile .curriculum .experience dd {
+        margin-left: 100px; }
+    .profile .curriculum .glyphicon {
+      margin-right: 10px; }
+    .profile .curriculum .projects img {
+      margin-bottom: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      .profile .curriculum .projects img {
+        width: 30%; } }
+    @media only screen and (max-width: 768px) {
+      .profile .curriculum .projects img {
+        width: 50%; }
+      .profile .curriculum .projects img:last-of-type {
+        margin-bottom: 40px; } }
+
+/*
+ --
+ */
+footer {
+  color: white;
+  background-color: #395b74; }
+  footer p {
+    margin: 15px 0 20px 0; }
+
+/*# sourceMappingURL=styles.css.map */
