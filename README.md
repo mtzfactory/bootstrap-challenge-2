@@ -5,8 +5,8 @@
 
 ### Bootstrap ~ Challenge de marcado HTML, Bootstrap y Sass.
 
-Otro reto mas de  HTML5 y CSS3, esta vez usando Bootstrap y Sass:
+Segundo reto de Bootstrap y Sass:
 
  + [portfolio website](https://mtzfactory.github.io/bootstrap-challenge-2/)
 
-Si te sientes aventurero puedes intentarlo, tienes los materiales necesarios en la carpeta ```mockups``` y ```img```.
+Si te sientes aventurero puedes intentarlo, tienes los materiales necesarios en la carpeta ```mockups``` y ```material```.
