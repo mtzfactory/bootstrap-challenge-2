@@ -7,6 +7,6 @@
 
 Segundo reto de Bootstrap y Sass:
 
- + [portfolio website](https://mtzfactory.github.io/bootstrap-challenge-2/)
+ + [portfolio website](https://mtzfactory.github.io/portfolio-bootstrap-sass/)
 
 Si te sientes aventurero puedes intentarlo, tienes los materiales necesarios en la carpeta ```mockups``` y ```material```.
