@@ -3,7 +3,7 @@
 
 ## Full Stack Web Development Bootcamp @Otoño2017
 
-### Bootstrap ~ Challenge de marcado HTML, Bootstrap y Sass.
+### Portfolio ~ Challenge de marcado HTML, con Bootstrap y Sass.
 
 Segundo reto de Bootstrap y Sass:
 
